@@ -1,0 +1,12 @@
+
+<div>
+	<form name="player_details" action="">
+		<img src="assests/images/dealGameTitleInitial.png" alt="Deal NoDeal" id="initialTitle">
+		<input type="text" ng-model="pname" id ="pname" placeholder="Enter name to continue...." required>
+		<!-- <p ng-bind="player_details.pname"></p>
+ -->
+		<div >
+		<input type="image" src="assests/images/playBtn.png" id="playBtn" ng-disabled="player_details.$invalid" ng-click="submit()">
+		</div>
+	</form>
+</div>

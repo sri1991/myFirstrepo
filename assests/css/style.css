@@ -1,0 +1,275 @@
+body
+{
+	background: url("../images/bg.png") ;
+	
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#initialTitle{
+	margin: 20% 0 0 3.8%;
+}
+#pname{
+	width: 50%;
+	background-color: #33b2ff;
+	height: 50px;
+	border: 2px solid black;
+	outline: 0;
+	margin: 20px 0 0 24%;
+	font-size: 30px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	padding: 0 2% 0 2%;
+	-webkit-box-shadow: 1px 1px 10px 1px #000000;
+	box-shadow: 1px 1px 10px 1px #000000;
+
+}
+#playBtn{
+	margin: 20px 0 0 42%;
+	width: 150px;
+	height: 50px;
+}
+#briefcases li{
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	width: 126px; 
+}
+
+#briefcases li:first-child, #briefcases li:nth-child(21){
+	margin-left: 80px;
+}
+
+#logo{
+	margin-left: 34%;
+}
+.amount{
+	position: absolute;
+    top: 45px;
+    left: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+#casesList{
+	position: relative;
+	/*z-index: 1;*/
+}
+#priceBar{
+	position: absolute;
+	width: 100%;
+	/*z-index:2;*/
+	top: 35px;
+}
+#price{
+	border: 3px solid #FFFC02;
+	z-index: 2;
+	float: left;
+}
+#price li{
+	font-weight: bold;
+	list-style-type: none;
+	background: url("../images/amountBg.png");
+	margin: 3px;
+	padding: 6px 0px 5px 90px;
+	font-size: 21px;
+}
+#price1{
+	border: 3px solid #FFFC02;
+	/*z-index: 2;*/
+	float:right;
+}
+#price1 li{
+	font-weight: bold;
+	list-style-type: none;
+	background: url("../images/amountBg.png");
+	margin: 3px;
+	padding: 6px 0px 5px 90px;
+	font-size: 21px;
+}
+
+.bottom{
+	width: 99.7%;
+position: relative;
+top: 525px;
+border: 3px solid yellow;
+float: left;
+}
+
+.bottom span{
+	font-weight: bold;
+	font-size: 36px;
+	color: white;
+	margin-left: 212px;
+}
+#button{
+	margin-right: 40px;
+/* float: left; */
+/* position: absolute; */
+z-index: 2;
+/* top: 63px; */
+/* display: block; */
+/* left: 850px; */
+/* right: 0px; */
+float: right;
+margin-top: 20px;
+}
+
+.new_class{
+	/*background:url("../images/amountOpenedBg.png");*/
+	color: #f00;
+}
+#banker{
+	display: none;
+	position: absolute;
+	z-index: 3;
+	left: 35%;
+	top: 135px;
+}
+#block{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	/*background: #ccc;*/
+	/*opacity: 0.3;*/
+}
+#block h3{
+	text-align: center;
+	padding-top: 50px;
+	font-weight: bolder;
+	color: blue;
+	font-size: 30px;
+}
+#cases{
+	position: absolute;
+	left: 20px;
+	/*z-index: 3;*/
+}
+#swap{
+
+	display: none;
+	position: absolute;
+	margin-left: 365px;
+	margin-top: 70px;
+}
+#bankerAmount{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+#dealBtn{
+	display: block;
+}
+#inrSymbol{
+	display: inline-block;
+	margin-left: 25%;
+}
+
+#selected{
+  border-right: 3px solid yellow;
+float: left;
+padding: 20px 0 20px 0;
+width: 200px;
+
+}
+
+#selected p{
+	padding-bottom: 30px;
+width: 54px;
+color: white;
+font-weight: bold;
+float: left;
+padding-top: 36px;
+}
+
+#selected img{
+	float: left;
+}
+#selected label{
+	position: absolute;
+	top: 65px;
+	left: 100px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.bottom h3{
+	font-weight: bold;
+	font-size: 38px;
+	background-color: yellow;
+	margin-top: -77px;
+	text-align: center;
+	width: 265px;
+	/* margin: 0 auto; */
+	margin-left: 370px;
+}
+#noCases{
+	font-weight: bold;
+	font-size: 36px;
+	color: white;
+	margin-left: 125px;
+	float: left;
+}
+
+/*swap*/
+#swap h6{
+	font-size: 35px;
+	font-weight: bold;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 85px;
+	padding-bottom: 25px;
+}
+#swap img{
+	margin-right: 50px;
+}
+#swap label{
+	font-weight: bold;
+	position: absolute;
+	font-size: 30px;
+	top: 100px;
+	left: 225px;
+}
+#swap #caseNo{
+	left:50px;
+}
+
+/**/
+
+/*style for end page*/
+
+#final_img{
+	background: url('../images/final.png') no-repeat;
+width: 500px;
+margin-left: 250px;
+margin-top: 40px;
+height: 500px;
+}
+
+.text{
+	text-align: center;
+	padding-top: 125px;
+}
+
+#final_img p{
+	font-weight: bold;
+font-size: 40px;
+margin-top: 13px;
+
+}
+
+#final_img h1{
+	font-weight: bold;
+font-size: 50px;
+margin-bottom: 36px;
+}
+
+.bottom_span{
+	margin-left: 235px;
+}
+
+/*end of style for end page*/

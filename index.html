@@ -1,13 +1,23 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My First Repo</title>
-	<link rel="stylesheet" href="">
+	<title>Angular demo</title>
+	<link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assests/css/style.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
-	<p>This is my first Repository</p>
-	<p>HIiii Everyone</p>
+<body ng-app="sampleApp">
+	<div id="container" >
+	
+	<div ui-view></div>
+	</div>
 </body>
+	<script type="text/javascript" src="assests/scripts/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="assests/scripts/angular.js"></script>
+	<script type="text/javascript" src="assests/scripts/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="application/js/app.js"></script>
+	<script type="text/javascript" src="application/js/services.js"></script>
+	<script type="text/javascript" src="application/js/homeCtrl.js"></script>
+	<script type="text/javascript" src="application/js/gameCtrl.js"></script>
+	<script type="text/javascript" src="application/js/endCtrl.js"></script>
+	<script type="text/javascript" src="common/uiRouter.js"></script>
 </html>

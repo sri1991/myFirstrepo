@@ -1,0 +1,56 @@
+<div id="gamePage">
+<div id="casesList">
+	<img src="assests/images/titleTop.png" alt="logo" id="logo">
+
+	<div id="cases">
+	
+
+	<ul id="briefcases">
+	        <li ng-repeat="item in items" >
+	        	<span id={{item.amount}} class="amount"></span>
+	        	<img src={{item.image}}  ng-click="doClick(item, $event)" id={{item.id}} value={{item.amount}}>
+	        </li>
+	</ul>
+	</div>
+	<div id="block">
+		<h3>Banker's Offer</h3>
+	</div>
+	<div id="banker">
+		<img src="assests/images/inr.png" id="inrSymbol">
+		<h4 id="bankerAmount"></h4>
+		<input type="image" src="assests/images/dealBtn.png" ng-click="deal()" id="dealBtn">
+		<input type="image" src="assests/images/noDealBtn.png" ng-click="noDeal()" id="noDealBtn">
+	</div>
+
+</div>
+<div id="swap">
+
+
+</div>
+
+<div id="priceBar" ng-show="myVar">
+	<ul  id="price">
+		<!-- <img src={{item.image}} id={{item.id}} value={{item.amount}} > -->
+		<li ng-repeat="leftamt in listLeft track by $index" class="amounts"><i class="fa fa-inr"></i>{{leftamt}}</li>
+	</ul>
+
+	<ul id="price1">
+		<li ng-repeat="rightamt in listRight track by $index" class="amounts"><i class="fa fa-inr"></i>{{rightamt}}</li>
+	</ul>
+	
+</div>
+
+
+<div class="bottom">
+ <div id="selected">
+   <p>YOUR CASE</p>
+  <label id="caseNo"></label>>
+ </div>
+ <span id ="rounds">Select a Case</span>
+ <p id="noCases"></p>
+ 
+ <input type="image" src="assests/images/toggle.png" ng-click="toggle()" id="button">
+ <h3>{{name}}</h3>
+</div>
+</div>
+
